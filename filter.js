@@ -1,4 +1,5 @@
 // filter gallery on search (need to change it so it is not case-sensitive)
+// also at least with my project it does not 'stack' nicely results of search, might be something wrong with me using the bootstrap in code
 
 
 var divs = $('div[data-filter]');
