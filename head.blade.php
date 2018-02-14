@@ -45,6 +45,8 @@
     <script src="/js/filter.js"></script>
     <!-- CONTACT FORM MODAL GALLERY -->
     <script src="/js/contactmodal.js"></script>
+    <!-- Menu Opacity -->
+    <script src="/js/MenuOpacity.js"></script>
 
 
 

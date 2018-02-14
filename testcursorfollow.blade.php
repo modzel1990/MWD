@@ -22,5 +22,48 @@ document.onmousemove = follow;
 <body>
 <div id="divoverpage" onMouseover= ''><a href="www.google.co.uk">test</a></div>
 <br><br>
-<div id='onme' onMouseover='document.getElementById(divFollow).style.display="block"' onMouseout='document.getElementById(divFollow).style.display="none"'>When hover over this area there will be object following the mouse</div>
+<div id='onme' onMouseover='document.getElementById(divFollow).style.display="block"' onMouseout='document.getElementById(divFollow).style.display="none"'>When hover over this area there will be object following the mouse
+
+
+
+<table style="border: 1px solid black;">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Surname</th>
+  </tr>
+  @foreach ($tests as $user)
+  <tr>
+    <td>{{$user->id}}</td>
+    <td>{{$user->col1}}</td>
+    <td>{{$user->col2}}</td>
+    <td>{{$user->col3}}</td>
+    <td>{{$user->col4}}</td>
+    <td>{{$user->col5}}</td>
+  </tr>
+
+@endforeach
+</table>
+
+<table style="border: 1px solid black;">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Surname</th>
+  </tr>
+  @foreach ($checks as $check)
+  <tr>
+    <td>{{$check->id}}</td>
+    <td>{{$check->col1}}</td>
+    <td>{{$check->col2}}</td>
+    <td>{{$check->col3}}</td>
+    <td>{{$check->col4}}</td>
+    <td>{{$check->col5}}</td>
+  </tr>
+
+@endforeach
+</table>
+
+</tr>
+</div>
 </body>

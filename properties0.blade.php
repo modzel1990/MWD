@@ -15,7 +15,6 @@
       <div class="contenttitle">
         <div class="row">
 
-
               <p>Feel free to discover variety of our properties, we are proud to be <span class="price">Number ONE</span> on the market with a set of luxurious & refurbished properties
               which will fit any demand, from single rooms to huge detached houses. Have a wonderful journey through our catalogue.</p>
 
@@ -159,22 +158,22 @@
 <div id="1" class="modal">
  <span class="close cursor" onclick="closeModal(1)">&times;</span>
  <div class="modal-content">
-   <div class="mod1" class="mySlides">
+   <div class="mod1 fade" class="mySlides">
      <div class="numbertext">1 / 4</div>
      <img src="http://www.aptmags.com/wp-content/uploads/2014/01/2014-Modern-Apartment-Design-Living-Room-and-Kitchen-Set.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod1" class="mySlides">
+   <div class="mod1 fade" class="mySlides">
      <div class="numbertext">2 / 4</div>
      <img src="https://i.pinimg.com/736x/1d/bd/32/1dbd321aa618d0276d0a5263dab713d1--oscar-terrace.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod1" class="mySlides">
+   <div class="mod1 fade" class="mySlides">
      <div class="numbertext">3 / 4</div>
      <img src="https://newbuyadvice.files.wordpress.com/2012/10/a-typical-interior-of-a-waterside-grange-property.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod1" class="mySlides">
+   <div class="mod1 fade" class="mySlides">
      <div class="numbertext">4 / 4</div>
      <img src="http://www.moko3d.com/files/Projects/Visualisation%20of%20sea%20view%20property%20in%20Brighton%20Arundel/Period%20details%20like%20ceiling%20mouldings%20in%20this%20visualisation.jpg" style="width:100%; max-height: 60vh;">
    </div>
@@ -258,12 +257,12 @@
  <span class="close cursor" onclick="closeModal(2)">&times;</span>
  <div class="modal-content">
 
-   <div class="mod2" class="mySlides">
+   <div class="mod2 fade" class="mySlides">
      <div class="numbertext">1 / 2</div>
      <img src="http://cdclifestyle.com/wp-content/uploads/2011/10/luxury-property-show-home-interior.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod2" class="mySlides">
+   <div class="mod2 fade" class="mySlides">
      <div class="numbertext">2 / 2</div>
      <img src="http://vault.starproperty.my.s3.amazonaws.com/wp-content/uploads/2015/08/nu_4.jpg" style="width:100%; max-height: 60vh;">
    </div>
@@ -325,17 +324,17 @@
  <span class="close cursor" onclick="closeModal(3)">&times;</span>
  <div class="modal-content">
 
-   <div class="mod3" class="mySlides">
+   <div class="mod3 fade" class="mySlides">
      <div class="numbertext">1 / 3</div>
      <img src="http://stoneintl.net/wp-content/uploads/2017/05/The-Best-Kitchen-Cabinets.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod3" class="mySlides">
+   <div class="mod3 fade" class="mySlides">
      <div class="numbertext">2 / 3</div>
      <img src="https://mr3.homeflow-assets.co.uk/files/site_asset/image/3475/6318/_x_/PUT170080_05.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod3" class="mySlides">
+   <div class="mod3 fade" class="mySlides">
      <div class="numbertext">3 / 3</div>
      <img src="https://i.pinimg.com/originals/47/22/a5/4722a5e8b1f1c10f7887e29a0f6b93eb.jpg" style="width:100%; max-height: 60vh;">
    </div>
@@ -401,12 +400,12 @@
  <span class="close cursor" onclick="closeModal(4)">&times;</span>
  <div class="modal-content">
 
-   <div class="mod4" class="mySlides">
+   <div class="mod4 fade" class="mySlides">
      <div class="numbertext">1 / 2</div>
      <img src="http://www.suncityvillas.com/server13-cdn/2015/10/09/bathroom-ceiling-design-room-ceiling-design-99c38376887f449b.jpg" style="width:100%; max-height: 60vh;">
    </div>
 
-   <div class="mod4" class="mySlides">
+   <div class="mod4 fade" class="mySlides">
      <div class="numbertext">2 / 2</div>
      <img src="https://content.makaan.com/16/3715550/274/9812848.jpeg?width=665&height=415" style="width:100%; max-height: 60vh;">
    </div>

@@ -28,22 +28,22 @@
                <span class="close cursor" onclick="closeModal(1)">&times;</span>
                <div class="modal-content">
 
-                 <div class="mod1" class="mySlides">
+                 <div class="mod1 fade" class="mySlides">
                    <div class="numbertext">1 / 4</div>
                    <img src="http://www.aptmags.com/wp-content/uploads/2014/01/2014-Modern-Apartment-Design-Living-Room-and-Kitchen-Set.jpg" style="width:100%; max-height: 60vh;">
                  </div>
 
-                 <div class="mod1" class="mySlides">
+                 <div class="mod1 fade" class="mySlides">
                    <div class="numbertext">2 / 4</div>
                    <img src="https://i.pinimg.com/736x/1d/bd/32/1dbd321aa618d0276d0a5263dab713d1--oscar-terrace.jpg" style="width:100%; max-height: 60vh;">
                  </div>
 
-                 <div class="mod1" class="mySlides">
+                 <div class="mod1 fade" class="mySlides">
                    <div class="numbertext">3 / 4</div>
                    <img src="https://newbuyadvice.files.wordpress.com/2012/10/a-typical-interior-of-a-waterside-grange-property.jpg" style="width:100%; max-height: 60vh;">
                  </div>
 
-                 <div class="mod1" class="mySlides">
+                 <div class="mod1 fade" class="mySlides">
                    <div class="numbertext">4 / 4</div>
                    <img src="http://www.moko3d.com/files/Projects/Visualisation%20of%20sea%20view%20property%20in%20Brighton%20Arundel/Period%20details%20like%20ceiling%20mouldings%20in%20this%20visualisation.jpg" style="width:100%; max-height: 60vh;">
                  </div>
@@ -143,12 +143,12 @@
        <span class="close cursor" onclick="closeModal(2)">&times;</span>
        <div class="modal-content">
 
-         <div class="mod2" class="mySlides">
+         <div class="mod2 fade" class="mySlides">
            <div class="numbertext">1 / 2</div>
            <img src="http://cdclifestyle.com/wp-content/uploads/2011/10/luxury-property-show-home-interior.jpg" style="width:100%; max-height: 60vh;">
          </div>
 
-         <div class="mod2" class="mySlides">
+         <div class="mod2 fade" class="mySlides">
            <div class="numbertext">2 / 2</div>
            <img src="http://vault.starproperty.my.s3.amazonaws.com/wp-content/uploads/2015/08/nu_4.jpg" style="width:100%; max-height: 60vh;">
          </div>
