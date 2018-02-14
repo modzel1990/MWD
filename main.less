@@ -1,29 +1,59 @@
 // Headers //
+header.navcolor {
+    background-color: @blackpeakgrey;
+}
+
+header.navcolor.op {
+    background-color: rgba(26, 26, 26, 0.7);
+}
+
+header.navcolor.op:hover {
+    background-color: @blackpeakgrey;
+}
 
 header.navigation-dark {
-  background-color: @blackpeakgreylight;
-  display: flex;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
   div.header-logo {
+    float: left;
+    display: inline-block;
     padding: 25px;
     width: 50%;
+    color: white;
     img {
       width: 30%;
     }
   }
+  h2.cul {
+    width: 450px;
+  }
+  h2.cul:hover {
+    color: @fitbit;
+  }
   div.nav-right {
+    position: relative;
+    display: inline-block;
     padding-top: 3vh;
-    width: 50%;
     ul {
       list-style-type: none;
       font-weight: 700;
       li {
+        display: block;
+        padding: 10px;
         float:  left;
         margin: 0px 10px;
         a {
-          color: @blackpeakgrey;
+          color: white;
         }
         a:hover {
           color: @fitbit;
+          text-decoration: none;
+          transform: rotateX(4);
+          letter-spacing: 3px;
+          transition: all 0.5s ease;
            }
       &.accounts {
         color: @fitbitpink;
@@ -35,6 +65,26 @@ header.navigation-dark {
 
     }
   }
+
+  .homecolor, .blogcolor, .propertycolor, .aboutcolor, .contactcolor {
+    color: white;
+  }
+
+  .homecolor:hover {
+    color: red;
+  }
+  .blogcolor:hover {
+    color: #ff3399;
+  }
+  .propertycolor:hover {
+    color: lightgreen;
+  }
+  .aboutcolor:hover {
+    color: #3385ff;
+  }
+  .contactcolor:hover {
+    color: orange;
+  }
 }
 
 // Sections //
@@ -45,12 +95,17 @@ section.header-splash {
   background-size: cover;
   background-position: center center;
   padding: 0px;
-  min-height: 60vh;
+  min-height: 70vh;
   &.one {
-    background-image: url('/img/slide1.jpg');
+    background-image: url('/img/slider5.jpg');
   }
   &.two {
-    background-image: url('/img/slide2.jpg');
+    background-image: url('/img/slider2.jpg');
+  }
+  &.three {
+    background-image: url('/img/slider3.jpg');
+    background-size: cover;
+
   }
   div.header-content {
     width: 100%;
@@ -116,6 +171,10 @@ section.activities {
   width: 100%;
   background-color: @blackpeakgreylight;
   padding: 20px;
+}
+
+.topmargin {
+ margin-top: 95px;
 }
 
 // footer //
@@ -402,6 +461,11 @@ div.breakz {
   max-height: 90vh;
 }
 
+/* Mod+x display */
+div[class^=mod] {
+  display: hidden;
+}
+
 /* The Close Button */
 .close {
   color: white;
@@ -424,6 +488,26 @@ div.breakz {
 .mySlides {
   display: none;
 }
+
+/* Fade Effect */
+.fade {
+  animation:fade 2s  1 forwards;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
 
 /* Next & previous buttons */
 .prev,
