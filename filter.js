@@ -1,3 +1,4 @@
+
 var divs = $("div[data-filter]");
 
 $('#search').on('keyup', function() {
