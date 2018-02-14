@@ -31,4 +31,10 @@ Route::get('contact', function () {
     return view('pages.contactus');
 });
 
+Route::get('kursor', function () {
+    return view('pages.testcursorfollow');
+});
+
 Route::get('/Resources/LESS', 'Blackpeak\ResourceController@Less');
+Route::get('kursor', 'FootForward\DBController@hakunamatata');
+Route::get('kursor', 'FootForward\DBController@testowanie');
