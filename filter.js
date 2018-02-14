@@ -5,11 +5,11 @@ $('#search').on('keyup', function() {
 	filterList(filter);
 });
 
+
 //filter function
 function filterList(value) {
-  $(divs).fadeOut("fast");
   divs.filter(function() {
+  $(divs).fadeOut("fast");
   return $(this).attr("data-filter").toLowerCase().indexOf(value) >= 0
-}).fadeIn("fast")
+}).fadeIn()
 };
-
