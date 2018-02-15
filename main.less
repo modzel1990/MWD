@@ -424,16 +424,11 @@ div.breakz {
   float: left;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Scroll visible when more than 4 pics in thumbnail */
 .scroll {
   overflow-y: auto;
   overflow-x: hidden;
+  display: inline-block;
 }
 
 /* The Modal (background) */
@@ -456,9 +451,11 @@ div.breakz {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 80%;
-  max-width: 1200px;
+  width: 95%;
+  max-width: 1400px;
   max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Mod+x display */
@@ -508,6 +505,13 @@ div[class^=mod] {
   to {opacity: 1}
 }
 
+/* INLINE ALIGN */
+.inline {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
 
 /* Next & previous buttons */
 .prev,
@@ -529,7 +533,7 @@ div[class^=mod] {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 1.5%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -552,10 +556,20 @@ div[class^=mod] {
 .caption-container {
   text-align: left;
   background-color: white;
-  padding: 2px 16px;
   color: black;
   min-height: 8vh;
+  width: 100%;
 }
+
+/* Description Container in Modal Gallery */
+.desccont {
+  background-color: rgba(173, 216, 230, 0.7);
+  border-radius: 15px;
+  border: 1px;
+  padding: 20px;
+}
+
+
 
 /* Contact Form in Modal */
 
@@ -662,6 +676,11 @@ textarea { height: 80px; resize: none; }
 .pad {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.nopad {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .padrl {
