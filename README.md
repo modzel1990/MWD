@@ -8,7 +8,7 @@ In order to add more pictures and galleries one must change values on many varia
 Step 1:
 In properties0.blade.php find the comment <!-- Images used to open the lightbox -->. Within that area you will find divs with img and description. Where the img is, just after the src link there is a onclick event which trigger:
 a) casegallery(x) & openModal(x);   <--- which modal and pictures to use
-b) currentSlide(x);   <--- which slide should be displayed after opening the modal
+b) currentSlide(x);   <--- which slide should be displayed after opening the modal; I personally keep it as (1) as I always want to display first picture of the gallery
 c) refreshthumb();   <-- repairs common problem with using slickslider within the modal galleries; trigger with no value!
 
 Step 2:
