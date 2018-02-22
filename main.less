@@ -1,0 +1,700 @@
+/* Content and Divs styling */
+
+div.containerus {
+   width: 100%;
+   background-color: white;
+   min-height: 300px;
+   display: inline;
+   align: center;
+   padding: 0px;
+   margin: 0px;
+}
+div.contenttitle {
+  width: 100%;
+  background-color: white;
+  min-height: 50px;
+  display: block;
+  align: center;
+  text-align: center;
+  padding: 20px;
+}
+div.right-side {
+  width: 100%;
+  background-color: white;
+   min-height: 200px;
+   display: inline;
+   float: right;
+   text-align: center;
+   align: center;
+   padding: 20px;
+}
+div.left-side {
+  width: 100%;
+  background-color: white;
+   min-height: 200px;
+   display: inline;
+   float: left;
+   text-align: center;
+   align: center;
+   padding: 20px;
+}
+div.picturebox {
+  width: 100%;
+  background-color: white;
+   min-height: 50px;
+   display: inline;
+   float: left;
+   text-align: center;
+   align: center;
+}
+div.textbox {
+  width: 100%;
+  background-color: white;
+   display: inline;
+   float: right;
+   text-align: left;
+   align: center;
+   padding: 5px;
+}
+div.middlecontent {
+  width: 100%;
+  background-color: white;
+  display: inline;
+  text-align: center;
+  align: center;
+  padding: 0px;
+  position: relative;
+}
+div.sidestrapl {
+  width: 100%;
+  background-color: @fitbit;
+  display: inline;
+  text-align: center;
+  align: center;
+  float: left;
+  padding: 5px;
+  border-radius: 85px 0px 85px 0px;
+  box-shadow: 0px 5px 15px 0px;
+}
+div.sidestrapr {
+  width: 100%;
+  background-color: @fitbit;
+  display: inline;
+  text-align: center;
+  align: center;
+  float: right;
+  padding: 5px;
+  border-radius: 0px 85px 0px 85px;
+  box-shadow: 0px 5px 15px 0px;
+}
+div.parallex {
+   width: 100%;
+   background-color: white;
+   display: block;
+   text-align: center;
+   align: center;
+   min-height: 200;
+   max-height: 300;
+}
+div.blog {
+  width: 100%;
+  background-color: white;
+   min-height: 200px;
+   display: inline;
+   float: right;
+   text-align: left;
+   align: center;
+   padding: 20px;
+}
+
+div.imgcont {
+  width: 120px;
+  height: 80px;
+}
+
+img.size {
+  width: 100%;
+  height: 100px;
+}
+
+img.pic {
+  width: 100%;
+  height: 40vh;
+}
+
+div.picleft {
+  width: 40%;
+  height: 40vh;
+  float: left;
+  padding: 10px;
+}
+
+ul.social {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+    align: center;
+}
+
+ul li.social {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul li.social a {
+	transition: all 0.2s ease-in-out;
+  color: @fitbit;
+}
+
+ul li.social a:hover {
+    opacity: 1;
+    color: white;
+}
+
+p.footer {
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+p.footerl {
+  color: white;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+h4.footer {
+  color: white;
+  font-weight: 50;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+h4.footerl {
+  color: white;
+  font-weight: 50;
+  letter-spacing: 2px;
+  text-align: left;
+  text-shadow: 2px 2px black;
+}
+
+h3.rotate {
+  transform: rotate(-15deg);
+  padding: 20px;
+  margin-top: 40px;
+  border: 2px outset lightblue;
+  border-radius: 20px 0 20px 0;
+  background-color: lightblue;
+  float: left;
+  box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+div.pagetitle {
+  width: 100%;
+  background-color: white;
+  min-height: 200px;
+  display: block;
+  align: center;
+  text-align: left;
+  padding: 20px;
+}
+
+div.breakz {
+  min-height: 30px;
+}
+
+.row {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+
+/* experiment */
+.column {
+  padding: 0 8px;
+  float: left;
+}
+
+/* Scroll visible when more than 4 pics in thumbnail */
+.scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: inline-block;
+}
+
+/* The Modal (background) */
+.modalus {
+  display: none;
+  position: fixed;
+  z-index: 8000;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+}
+
+/* Modal Content */
+.modal-contentus {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 95%;
+  max-width: 1300px;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: solid 2px lightblue;
+}
+
+/* Mod+x display */
+div[class^=mod] {
+  display: hidden;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  position: absolute;
+  z-index: 8010;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #95c425;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Fade Effect */
+.fade {
+  animation:fade 2s  1 forwards;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+/* INLINE ALIGN */
+.inline {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  z-index: 8010;
+  top: 0;
+  width: auto;
+  padding: 5px;
+  margin-top: 0;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.prev {
+  left: 1.5%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 1.5%;
+}
+
+/* On hover, transparent black background */
+.prev:hover,
+.next:hover,
+.prev:focus,
+.next:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #95c425;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: left;
+  background-color: white;
+  color: black !important;
+  min-height: 5vh;
+  width: 100%;
+}
+
+p.captionus {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  opacity: 1;
+}
+
+/* Description Container in Modal Gallery */
+.desccont {
+  background-color: rgba(173, 216, 230, 0.7);
+  border-radius: 15px;
+  border: 1px;
+  padding: 20px;
+  opacity: 1;
+  color: black;
+}
+
+.modalush3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+}
+
+.modalusp {
+  font-weight: 200 !important;
+  font-size: 18px !important;
+  color: black !important;
+  padding: 0 !important;
+  margin: 1px !important;
+  opacity: 1 !important;
+  color: black !important;
+}
+
+/* CUSTOM SLIDER FOR THUMB GALLERY */
+div[class^=responsive] {
+  width: 100%;
+  min-height: 190px;
+  text-align: center;
+  display: block;
+}
+
+/* Contact Form in Modal */
+
+.contactF {
+      display: inline-block;
+      position: relative;
+      transition: .3s ease;
+      color: black;
+      font-size: 1.6rem;
+      font-weight: 500;
+      font-weight: bold;
+      border-radius: .3rem;
+      padding: 1.4rem 1.6rem 1.3rem 1.6rem;
+      border: none;
+      outline: none !important;
+      cursor: pointer;
+      overflow: hidden;
+      box-shadow: 0 .15rem .15rem rgba(0,0,0,.2);
+      background-color: lightblue;
+}
+
+.contactF:hover {
+  color: black;
+  background-color: #95c425;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  transition: .3s ease;
+}
+
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+h1{ margin: 0; font-family: Raleway; }
+.contact {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  background: lightblue;
+  color: black;
+  font-weight: 700;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.contact:hover { box-shadow: 0 0 11px rgba(0,0,0,.6); color: black; background-color: #95c425; transition: .3s ease;}
+.contact:active { box-shadow: 0 0 11px rgba(0,0,0,.6); color: black; background-color: #95c425; transition: .3s ease;}
+
+.now {
+  font-weight: 1000;
+  font-weight: bold;
+  color: green;
+  text-shadow: 1px 1px yellow;
+}
+.nowb {
+  font-weight: 1000;
+  font-weight: bold;
+  color: black;
+  opacity: 1;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.disp {
+  display: inline-block;
+  text-align: center;
+  marign: 0 auto;
+}
+
+/* contactForm */
+
+div[id^='contactForm'] {
+  display: none;
+  border: 2px solid lightblue;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  z-index: 8020;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.centerform {
+  width: 280px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: 5px;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn {
+  width: 130px;
+  display: inline-block;
+  text-align: center;
+  background: lightblue;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  margin: 5px;
+  float: left;
+}
+
+.formBtn:hover { box-shadow: 0 0 11px rgba(0,0,0,.6); color: black; font-weight: bold; cursor: pointer; }
+.formBtn:active { box-shadow: 0 0 11px rgba(0,0,0,.6); color: black; font-weight: bold; cursor: pointer; }
+
+/* END Contact Form in Modal */
+
+/* price styling */
+.price {
+  color: green;
+  font-weight: 500;
+  text-shadow: 1px 1px yellow;
+}
+
+.price:hover {
+  font-weight: bold;
+  font-weight: 1000;
+}
+
+/* padding between pictures */
+.pad {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nopad {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.padrl {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.absolute {
+  position: absolute;
+  left: 5;
+  bottom: -5;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflowhid {
+  overflow: hidden;
+}
+
+.filterek {
+  position: relative;
+  display: inline-block;
+  width: 315px;
+  height: 215px;
+  padding: 10px;
+}
+
+.contpad {
+  padding: 30px;
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 15px;
+  border: 2px;
+  text-align: justify;
+}
+
+/* Other styling */
+img.imgfit {
+  width: 100%;
+  height: 280px;
+  cursor: pointer;
+}
+
+img.imgthumbsize {
+  opacity: 0.3;
+  height: 180px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.active,
+.imgthumbsize:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.5)
+}
+
+.sliderek {
+  width: 25%;
+  height: 100%;
+}
+
+.floatl {
+  float: left;
+}
+
+.floatr {
+  float: right;
+}
+
+.inlinedisp {
+  display: inline-block;
+}
+
+.pjustify {
+  text-align: justify;
+}
+
+.pleft {
+  text-align: left !important;
+}
+/* Map in Contact Page */
+
+.mapstyle {
+  height: 400px;
+  width: 550px;
+  -webkit-filter: grayscale(30%);
+       -moz-filter: grayscale(30%);
+        -ms-filter: grayscale(30%);
+         -o-filter: grayscale(30%);
+            filter: grayscale(30%);
+}
+
+.picalign {
+    position: relative;
+}
+.picalign .offset {
+    position: absolute;
+    z-index: 1;
+    bottom: -3rem;
+    left: 3rem;
+}
+.picalign .offset .image {
+    height: 20rem;
+    margin-top: 2rem;
+    margin-right: -3rem;
+    margin-left: -3rem;
+    margin-bottom: -3rem;
+}
+.hrblack {
+  color: black;
+  font-weight: bold;
+  height: 5px;
+  opacity 1;
+  border-top: 3px solid black;
+}
+
+.picon {
+  text-align: center;
+  color: black;
+  padding: 5px;
+  margin: 0;
+  opacity: 1;
+}
+
+.markersize {
+  height: 40px;
+  width: 40px;
+}
