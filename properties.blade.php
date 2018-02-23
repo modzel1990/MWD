@@ -124,7 +124,7 @@
                           </div>
                           <!--end col-md-4-->
 
-                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                               <div class="boxgallery box--pricing" data-scroll-reveal="enter bottom and move 10px after 0.2s">
                                   <div class="box__wrappergallery">
                                       <div class="box__image height-300px">
@@ -169,9 +169,8 @@
                               <!--end box-pricing-->
                           </div>
                           <!--end col-md-4-->
-                        </div>
-                          <div class="row pad">
-                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+                    
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                               <div class="boxgallery box--pricing" data-scroll-reveal="enter bottom and move 10px after 0.2s">
                                   <div class="box__wrappergallery">
                                       <div class="box__image height-300px">
@@ -216,7 +215,7 @@
                               <!--end box-pricing-->
                           </div>
                           <!--end col-md-4-->
-                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                               <div class="boxgallery box--pricing" data-scroll-reveal="enter bottom and move 10px after 0.2s">
                                   <div class="box__wrappergallery">
                                       <div class="box__image height-300px">
@@ -261,7 +260,7 @@
                               <!--end box-pricing-->
                           </div>
                           <!--end col-md-4-->
-                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-0">
+                          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                               <div class="boxgallery box--pricing" data-scroll-reveal="enter bottom and move 10px after 0.2s">
                                   <div class="box__wrappergallery">
                                       <div class="box__image height-300px">
