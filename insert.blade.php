@@ -51,7 +51,7 @@
          <th>Name</th>
          <th>Comment</th>
       </tr>
-      @foreach ($commvals as $comm)
+      @foreach (array_reverse($commvals) as $comm)
       <tr>
       <td>{{$comm->firstname}} {{$comm->surname}}</td>
         <td>{{$comm->comment}}</td>

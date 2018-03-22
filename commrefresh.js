@@ -25,7 +25,9 @@ $(document).ready(function(){
 
       })
       .done(function() {
+          setTimeout(function(){$('#success').fadeIn();}, 100);
           document.getElementById("success").innerHTML = "Your comment was added!";
+          setTimeout(function(){$('#success').fadeOut();}, 3000);
         $.ajax({
             url: "insert/inserting", 
             type: "POST",
@@ -36,7 +38,7 @@ $(document).ready(function(){
             $("#comarea").load("/insert #comarea > *");
             $('.mine')[0].reset(); 
             });
-        });
+        }, 1000);
         console.log("Data sent");
       });
 

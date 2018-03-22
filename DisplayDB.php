@@ -16,6 +16,7 @@ class DisplayDB extends Controller
     public function displaying()
     {
         $commvals = DB::table('InsertData')->get();
+        $commvals = $commvals->toArray();
 
         return view('pages.insert', ['commvals' => $commvals]);
     }
